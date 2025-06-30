@@ -1,6 +1,5 @@
-
 import { useState } from "react";
-import { Globe, PieChart, Certificate } from "lucide-react";
+import { Globe, PieChart, Award, FileCheck } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const Services = () => {
@@ -32,7 +31,7 @@ export const Services = () => {
     {
       title: "Carbon Credit Strategy",
       description: "End-to-end carbon management and offset program development.",
-      icon: Certificate,
+      icon: Award,
       details: [
         "Carbon footprint assessment and reduction planning",
         "Offset project identification and verification",
@@ -43,7 +42,7 @@ export const Services = () => {
     {
       title: "Corporate Sustainability Audits",
       description: "Holistic evaluation of sustainability practices and performance.",
-      icon: Certificate,
+      icon: FileCheck,
       details: [
         "Supply chain sustainability assessment",
         "Operational efficiency and waste reduction",
